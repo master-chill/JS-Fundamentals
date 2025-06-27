@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // File: 2-arguments.js
 
 const argsCount = process.argv.length - 2;
