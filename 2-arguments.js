@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 // File: 2-arguments.js
 
-const argsCount = process.argv.length - 2;
+const args = process.argv.slice(2);
 
-if (argsCount === 0) {
+if (args[0] === undefined) {
   console.log("No argument");
-} else if (argsCount === 1) {
+} else if (args[1] === undefined) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
